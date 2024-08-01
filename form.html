@@ -1,0 +1,25 @@
+<!-- #We are using HTML on the frontend to create a form, so that the information gets collected in our Mongo database.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h1>Submit the form below</h1>
+                <form action="form_submit" method="POST" enctype="multipart/form-data">
+                    <input type="text" placeholder="User Name" name="u_name"><br><br>
+                    <input type="number" placeholder="User Age" name="u_age"><br><br>
+                    <input type="text" placeholder="User City" name="u_city"><br><br>
+                    <input type="text" placeholder="User Hobby" name="u_hobby"><br><br>
+                    <input type="submit" value="Click!">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
